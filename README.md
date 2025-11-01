@@ -50,7 +50,7 @@ That's it! The game will launch in fullscreen mode.
 
 
 
-##  Screenshots
+##  Snapshots
 
 <div align="center">
 
@@ -207,6 +207,7 @@ If you need help or want to share feedback, feel free to reach out at mushfiq200
 
 - **Md Mushfiqur Rahman (2007027)**  
 - **M Rahimeen Fatin (2007029)**  
+
 
 
 
