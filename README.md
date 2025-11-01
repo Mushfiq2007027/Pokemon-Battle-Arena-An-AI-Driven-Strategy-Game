@@ -12,7 +12,7 @@
  </video>
 
 *Watch the full gameplay demonstration showing all three phases and AI battle strategies with audio!*
-> - [**Download the video**](./images/pokemon_battle_arena.mp4) to watch with audio, OR
+> - [**Download the video**](./images/pokemon_battle_arena.mp4)  OR
 > - Clone the repository and open the video file directly from the `images/` folder
 
 </div>
@@ -207,6 +207,7 @@ If you need help or want to share feedback, feel free to reach out at mushfiq200
 
 - **Md Mushfiqur Rahman (2007027)**  
 - **M Rahimeen Fatin (2007029)**  
+
 
 
 
