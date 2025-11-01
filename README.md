@@ -1,29 +1,16 @@
-# 🎮 Pokemon Battle Arena 4.0 - AI Battle Simulator
+#  Pokemon Battle Arena: An AI Driven Strategy Game
+
+
+
+##  Demo Video
 
 <div align="center">
 
-![Pokemon Battle Arena](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Pygame](https://img.shields.io/badge/Pygame-2.0+-green.svg)
-![License](https://img.shields.io/badge/License-Educational-yellow.svg)
-![Status](https://img.shields.io/badge/Status-Active-success.svg)
-
-**An advanced AI-powered Pokemon battle simulation featuring A* Pathfinding, Minimax Algorithm with Alpha-Beta Pruning, and Fuzzy Logic decision-making!**
-
-[🎬 Watch Demo](#demo-video) • [🚀 Quick Start](#quick-start) • [📖 Documentation](#documentation) • [🤖 AI Features](#ai-algorithms)
-
-</div>
-
----
-
-## 📹 Demo Video
-
-<div align="center">
-
-### 🎥 Full Gameplay Demonstration
+###  Full Gameplay Demonstration
 
 <video width="800" controls>
   <source src="./images/pokemon_battle_arena.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+ 
 </video>
 
 *Watch the full gameplay demonstration showing all three phases and AI battle strategies with audio!*
@@ -32,13 +19,11 @@
 > - [**Download the video**](./images/pokemon_battle_arena.mp4) to watch with audio, OR
 > - Clone the repository and open the video file directly from the `images/` folder
 
-**🔊 This video includes audio narration - make sure your sound is on!**
-
 </div>
 
 ---
 
-## 🌟 Features Overview
+##  Features Overview
 
 <table>
 <tr>
@@ -59,14 +44,14 @@
 </td>
 <td width="50%">
 
-### 🎨 Visual Features
+###  Visual Features
 - **Dynamic Attack Animations** (200x200px icons)
 - **Particle Effects** and screen shake
 - **Smooth HP Animations** with color-coded bars
 - **Type-Based Color System** (Fire/Water/Electric)
 - **Responsive UI** that scales with window size
 
-### 🔊 Audio Features
+###  Audio Features
 - **MP3 Voice Narration** for each phase
 - **Sound Effects** for attacks, heals, swaps
 - **Audio-Synced Timing** for seamless gameplay
@@ -77,7 +62,7 @@
 
 ---
 
-## 🎬 Screenshots
+##  Screenshots
 
 <div align="center">
 
@@ -101,7 +86,7 @@
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -215,34 +200,34 @@ graph LR
 ## 📖 Game Rules
 
 ### Phase 1: Pokemon Catching (30 seconds)
-- 🎯 **Objective**: Catch 3 Pokemon using A* pathfinding
-- ⚡ **Cost**: 15 fuel per catch
-- 🏃 **Strategy**: AI agents navigate the grid to reach Pokemon locations
-- 🎲 **Randomness**: Pokemon spawn at random locations each game
+-  **Objective**: Catch 3 Pokemon using A* pathfinding
+-  **Cost**: 15 fuel per catch
+-  **Strategy**: AI agents navigate the grid to reach Pokemon locations
+-  **Randomness**: Pokemon spawn at random locations each game
 
 ### Phase 2: Elixir Shopping (3 seconds)
-- 💰 **Budget**: 100 coins per agent
-- 💊 **Options**:
+-  **Budget**: 100 coins per agent
+-  **Options**:
   - **Small Elixir**: Heals 25 HP, costs 15 coins
   - **Medium Elixir**: Heals 50 HP, costs 30 coins
   - **Large Elixir**: Heals 80 HP, costs 50 coins
-- 🧠 **AI Strategy**: Optimal purchasing based on heal-to-cost ratio
+-  **AI Strategy**: Optimal purchasing based on heal-to-cost ratio
 
 ### Phase 3: Pokemon Battle (130 seconds)
-- ⚔️ **Turn-Based**: Both AI agents make decisions every 0.7 seconds
-- 🎭 **Actions**: Attack, Defend, Heal, or Swap Pokemon
-- 🔥 **Type Advantages**: 
+-  **Turn-Based**: Both AI agents make decisions every 0.7 seconds
+-  **Actions**: Attack, Defend, Heal, or Swap Pokemon
+-  **Type Advantages**: 
   - Fire > Electric (1.3x damage)
   - Electric > Water (1.3x damage)
   - Water > Fire (1.3x damage)
-- 🌍 **Field Bonus**: 1.2x damage when Pokemon type matches field type
-- 🏆 **Victory Conditions**:
+-  **Field Bonus**: 1.2x damage when Pokemon type matches field type
+-  **Victory Conditions**:
   1. Eliminate all opponent's Pokemon, OR
   2. Have higher total HP when time expires
 
 ---
 
-## 🤖 AI Algorithms
+##  AI Algorithms
 
 ### 1. A* Pathfinding Algorithm
 
@@ -316,7 +301,7 @@ class FuzzyLogic:
 
 ---
 
-## 🎯 Technical Highlights
+##  Technical Highlights
 
 ### Architecture
 
@@ -388,7 +373,7 @@ This project demonstrates:
 
 ---
 
-## 🛠️ Configuration
+##  Configuration
 
 ### Modify Game Settings
 
@@ -432,7 +417,7 @@ ASHTEAMSPECIES = [
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -471,7 +456,7 @@ Solution:
 
 ---
 
-## 📊 Battle Mechanics Deep Dive
+##  Battle Mechanics Deep Dive
 
 ### Damage Calculation
 
@@ -525,82 +510,29 @@ Each 0.7 seconds:
 └── Auto-swap to next alive Pokemon
 ```
 
----
 
-## 🤝 Contributing
 
-Contributions are welcome! Here are some ideas:
-
-### Enhancement Ideas
-- [ ] Add more Pokemon species
-- [ ] Implement status effects (poison, burn, paralysis)
-- [ ] Add special moves (critical hits, multi-target)
-- [ ] Create tournament mode with brackets
-- [ ] Add multiplayer (human vs AI or human vs human)
-- [ ] Implement Pokemon evolution
-- [ ] Add weather effects
-- [ ] Create leaderboard system
-
-### How to Contribute
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/YourFeature`)
-3. Commit changes (`git commit -m 'Add YourFeature'`)
-4. Push to branch (`git push origin feature/YourFeature`)
-5. Open a Pull Request
-
----
-
-## 📜 License
+##  License
 
 This project is for **educational purposes**. Pokemon and related characters are property of Nintendo/Game Freak.
 
----
+## Project Members
+  (1) Md Mushfiqur Rahman (2007027)
+  (2) M Rahimeen Fatin (2007029)
 
-## 🙏 Acknowledgments
 
-- **Pokemon Franchise**: Nintendo, Game Freak, The Pokemon Company
-- **Pygame**: Community-developed game library
-- **NumPy**: Scientific computing library
-- **AI Algorithms**: Russell & Norvig's "Artificial Intelligence: A Modern Approach"
 
----
 
-## 📞 Support
 
-Need help? Found a bug?
 
-- 📧 Email: mushfiq2007027@example.com
-- 🐛 [Report Issues](https://github.com/Mushfiq2007027/Pokemon-Battle-Arena-An-AI-Driven-Strategy-Game/issues)
-- 💬 [Discussions](https://github.com/Mushfiq2007027/Pokemon-Battle-Arena-An-AI-Driven-Strategy-Game/discussions)
 
----
 
-## 🌟 Star History
 
-If you find this project helpful, please consider giving it a ⭐!
 
----
 
-## 📈 Project Stats
 
-![Lines of Code](https://img.shields.io/badge/Lines%20of%20Code-2000+-blue)
-![Modules](https://img.shields.io/badge/Modules-11-green)
-![AI Algorithms](https://img.shields.io/badge/AI%20Algorithms-3-orange)
-![Game Phases](https://img.shields.io/badge/Game%20Phases-3-purple)
 
----
 
-<div align="center">
 
-### Made with ❤️ and Python
 
-**[⬆ Back to Top](#-pokemon-battle-arena-40---ai-battle-simulator)**
 
----
-
-*This project demonstrates advanced AI algorithms in a fun, interactive way!*
-
-**Play • Learn • Contribute** 🚀
-
-</div>
