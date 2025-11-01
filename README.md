@@ -194,12 +194,22 @@ class FuzzyLogic:
 -  Considers multiple factors
 -  Smooth transitions
 
----
+
+
+## Contact
+
+If you need help or want to share feedback, feel free to reach out at mushfiq2000cpt@gmail.com or fatincommands04@gmail.com
+
 
 
 ## Project Members
-  (1) Md Mushfiqur Rahman (2007027)
-  (2) M Rahimeen Fatin (2007029)
+
+- **Md Mushfiqur Rahman (2007027)**  
+- **M Rahimeen Fatin (2007029)**  
+
+
+
+
 
 
 
