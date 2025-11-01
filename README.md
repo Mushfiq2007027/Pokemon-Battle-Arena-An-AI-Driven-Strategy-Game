@@ -55,26 +55,27 @@ That's it! The game will launch in fullscreen mode.
 <div align="center">
 
 ### Intro Screen
-![Intro Screen](./images/pokemon_intro.webp)
-*Game introduction with rules and controls*
+<img width="1118" height="661" alt="game_intro" src="https://github.com/user-attachments/assets/498fc2ef-8354-44c0-bb1d-cef98c9f2b25" />
+
 
 ### Phase 1: Catching Pokemon
-![Phase 1](./images/forest.jpg)
-*AI trainers use A* pathfinding to catch Pokemon*
+<img width="1043" height="644" alt="phase_1" src="https://github.com/user-attachments/assets/371d6033-fa66-412b-9fcc-ee0e945de7fa" />
+
 
 ### Phase 2: Collecting Elixirs
-![Phase 2](./images/elixir.png)
-*Strategic elixir purchasing with animated collection*
+<img width="1046" height="640" alt="phase_2" src="https://github.com/user-attachments/assets/31ccf792-0df7-4002-8ca8-dec14bd6d455" />
+
 
 ### Phase 3: Epic Battle
-![Phase 3](./images/battleground.png)
-*Turn-based Pokemon battle with stunning visual effects*
+<img width="1045" height="643" alt="phase_3" src="https://github.com/user-attachments/assets/1da72bed-b556-4c58-9f28-35f69e290c45" />
+
+
+### Result Screen
+<img width="1120" height="662" alt="game_result" src="https://github.com/user-attachments/assets/e42345d5-17bf-4d75-99f6-57cae15936ff" />
 
 </div>
 
 ---
-
-
 
 
 ### Game Flow
@@ -206,6 +207,7 @@ If you need help or want to share feedback, feel free to reach out at mushfiq200
 
 - **Md Mushfiqur Rahman (2007027)**  
 - **M Rahimeen Fatin (2007029)**  
+
 
 
 
