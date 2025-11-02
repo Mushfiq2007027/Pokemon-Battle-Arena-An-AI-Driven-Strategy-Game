@@ -199,14 +199,15 @@ class FuzzyLogic:
 
 ## Contact
 
-If you need help or want to share feedback, feel free to reach out at mushfiq2000cpt@gmail.com or fatincommands04@gmail.com
+If you need help or want to share feedback, feel free to reach out at mushfiq2000cpt@gmail.com
 
 
 
-## Project Members
+## Author
 
 - **Md Mushfiqur Rahman (2007027)**  
-- **M Rahimeen Fatin (2007029)**  
+  
+
 
 
 
