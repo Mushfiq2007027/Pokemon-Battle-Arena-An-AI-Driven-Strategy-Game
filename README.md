@@ -7,13 +7,14 @@
 
 ###  Full Gameplay Demonstration
 
-<video width="800" controls>
-  <source src="./images/pokemon_battle_arena.mp4" type="video/mp4">
- </video>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/hws2kfGSaFY" 
+title="Pokemon Battle Arena Demo Video" frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 *Watch the full gameplay demonstration showing all three phases and AI battle strategies with audio!*
-> - [**Download the video**](./images/pokemon_battle_arena.mp4)  OR
-> - Clone the repository and open the video file directly from the `images/` folder
+> - [**Watch on YouTube**](https://youtu.be/hws2kfGSaFY)  
+> - Or clone the repository and explore gameplay features locally.
 
 </div>
 
@@ -207,6 +208,7 @@ If you need help or want to share feedback, feel free to reach out at mushfiq200
 
 - **Md Mushfiqur Rahman (2007027)**  
   
+
 
 
 
