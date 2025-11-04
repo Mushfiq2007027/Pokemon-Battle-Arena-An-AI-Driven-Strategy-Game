@@ -1,83 +1,7 @@
-#  Pokemon Battle Arena: An AI Driven Strategy Game
+#  CSE 4110 Project: Pokemon Battle Arena: An AI Driven Strategy Game
 
-
-##  Demo Video
-
-<div align="left">
-
-###  Full Gameplay Demonstration
-
-<iframe width="800" height="450" src="https://www.youtube.com/embed/hws2kfGSaFY" 
-title="Pokemon Battle Arena Demo Video" frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-
-*Watch the full gameplay demonstration showing all three phases and AI battle strategies with audio!*
-> - [**Watch on YouTube**](https://youtu.be/hws2kfGSaFY)  
-> - Or clone the repository and explore gameplay features locally.
-
-</div>
-
-
-##  Quick Start
-
-### Prerequisites
-
-```bash
-Python 3.8 or higher
-```
-
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/Mushfiq2007027/Pokemon-Battle-Arena-An-AI-Driven-Strategy-Game.git
-cd Pokemon-Battle-Arena-An-AI-Driven-Strategy-Game
-```
-
-2. **Install dependencies**
-```bash
-pip install pygame numpy
-```
-
-3. **Run the game**
-```bash
-python main.py
-```
-
-That's it! The game will launch in fullscreen mode.
-
----
-
-
-
-##  Snapshots
-
-<div align="center">
-
-### Intro Screen
-<img width="1118" height="661" alt="game_intro" src="https://github.com/user-attachments/assets/498fc2ef-8354-44c0-bb1d-cef98c9f2b25" />
-
-
-### Phase 1: Catching Pokemon
-<img width="1043" height="644" alt="phase_1" src="https://github.com/user-attachments/assets/371d6033-fa66-412b-9fcc-ee0e945de7fa" />
-
-
-### Phase 2: Collecting Elixirs
-<img width="1046" height="640" alt="phase_2" src="https://github.com/user-attachments/assets/31ccf792-0df7-4002-8ca8-dec14bd6d455" />
-
-
-### Phase 3: Epic Battle
-<img width="1045" height="643" alt="phase_3" src="https://github.com/user-attachments/assets/1da72bed-b556-4c58-9f28-35f69e290c45" />
-
-
-### Result Screen
-<img width="1120" height="662" alt="game_result" src="https://github.com/user-attachments/assets/e42345d5-17bf-4d75-99f6-57cae15936ff" />
-
-</div>
-
----
-
+## Introduction
+Pokemon Battle Arena is an immersive, AI-driven strategy game built with Python and Pygame, where smart agents use advanced algorithms to catch, train, and battle Pokemon in real-time. The game unfolds through three exciting phases — Catching, Elixir Collection, and Epic Battles — all guided by intelligent systems like A* pathfinding, Minimax with Alpha-Beta Pruning, and Fuzzy Logic. Each session offers a unique blend of skill and adaptive AI, making every match feel like a true test of strategy and precision.
 
 ### Game Flow
 
@@ -92,9 +16,7 @@ graph LR
     F -->|No| G[Exit]
 ```
 
----
-
-## 📖 Game Rules
+## Game Rules
 
 ### Phase 1: Pokemon Catching (30 seconds)
 -  **Objective**: Catch 3 Pokemon using A* pathfinding
@@ -122,7 +44,7 @@ graph LR
   1. Eliminate all opponent's Pokemon, OR
   2. Have higher total HP when time expires
 
----
+
 
 ##  AI Algorithms
 
@@ -196,6 +118,74 @@ class FuzzyLogic:
 -  Considers multiple factors
 -  Smooth transitions
 
+-  ##  Snapshots
+
+<div align="center">
+
+### Intro Screen
+<img width="1118" height="661" alt="game_intro" src="https://github.com/user-attachments/assets/498fc2ef-8354-44c0-bb1d-cef98c9f2b25" />
+
+
+### Phase 1: Catching Pokemon
+<img width="1043" height="644" alt="phase_1" src="https://github.com/user-attachments/assets/371d6033-fa66-412b-9fcc-ee0e945de7fa" />
+
+
+### Phase 2: Collecting Elixirs
+<img width="1046" height="640" alt="phase_2" src="https://github.com/user-attachments/assets/31ccf792-0df7-4002-8ca8-dec14bd6d455" />
+
+
+### Phase 3: Epic Battle
+<img width="1045" height="643" alt="phase_3" src="https://github.com/user-attachments/assets/1da72bed-b556-4c58-9f28-35f69e290c45" />
+
+
+### Result Screen
+<img width="1120" height="662" alt="game_result" src="https://github.com/user-attachments/assets/e42345d5-17bf-4d75-99f6-57cae15936ff" />
+
+</div>
+
+
+##  Demo Video
+
+<div align="left">
+
+###  Full Gameplay Demonstration
+
+[![Watch the video](https://img.youtube.com/vi/hws2kfGSaFY/0.jpg)](https://youtu.be/hws2kfGSaFY)
+
+*Watch the full gameplay demonstration showing all three phases and AI battle strategies with audio!*
+> - [**Watch on YouTube**](https://youtu.be/hws2kfGSaFY)  
+> - Or clone the repository and open the local video from the `images/` folder.
+
+</div>
+
+
+##  Quick Start
+
+### Prerequisites
+
+```bash
+Python 3.8 or higher
+```
+
+### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/Mushfiq2007027/Pokemon-Battle-Arena-An-AI-Driven-Strategy-Game.git
+cd Pokemon-Battle-Arena-An-AI-Driven-Strategy-Game
+```
+
+2. **Install dependencies**
+```bash
+pip install pygame numpy
+```
+
+3. **Run the game**
+```bash
+python main.py
+```
+
+That's it! The game will launch in fullscreen mode.
 
 
 ## Contact
@@ -208,6 +198,7 @@ If you need help or want to share feedback, feel free to reach out at mushfiq200
 
 - **Md Mushfiqur Rahman (2007027)**  
   
+
 
 
 
